@@ -73,8 +73,6 @@ public class HomeActivity extends BaseApp implements HomeView {
         notesRepository.findAll().observe(this, new Observer<List<Notes>>() {
             @Override
             public void onChanged(@Nullable List<Notes> notesList) {
-                Toast.makeText(HomeActivity.this, String.format("Product size: %s", notesList.size()), Toast.LENGTH_SHORT).show();
-
                 if(notesList!= null && notesList.size() > 0) {
                     emptyListMessageTv.setVisibility(View.GONE);
                 } else {
