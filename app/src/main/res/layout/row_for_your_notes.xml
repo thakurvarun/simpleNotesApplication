@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/black"
+    android:paddingBottom="1dp"
+    android:background="#EEEEEEEE">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:background="#ffe5b4">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogyakarta"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+
+        <TextView
+            android:id="@+id/notesDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="338 Hotel"
+            android:layout_marginTop="5dp"
+            android:maxLength="300"
+            android:maxLines="4"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_green_dark"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notes App</string>
+
+    <string name="add_note_hint">Tap to add a new note. (300 characters only)</string>
+</resources>
