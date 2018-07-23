@@ -8,7 +8,11 @@ Notes - Your notes Title and Notes Description.
 
 Events to test : 
 
+Add the entry from the popup -> Click save and the notes gets saved in the database.
+
 Long Press on the list item to delete the entry.
+
+
 
 
 
