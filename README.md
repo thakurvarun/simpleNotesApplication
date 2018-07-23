@@ -6,4 +6,10 @@ The Application lets you add/Delete your notes.
 
 Notes - Your notes Title and Notes Description.
 
+Events to test : 
+
+Long Press on the list item to delete the entry.
+
+
+
 
